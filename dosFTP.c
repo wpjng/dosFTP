@@ -56,9 +56,7 @@ int main(void){
 
     }
     recv(socketFD, recv_buff, LENGTH, 0);
-    printf(recv_buff);
-
-
+    printf("%s",recv_buff);
 
 
 }
